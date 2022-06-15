@@ -1,0 +1,154 @@
+body {
+    /* font-family: 'Open Sans', sans-serif; */
+    color: black;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    color: #fff;
+    background: linear-gradient(135deg, #4ebffe, #3890d9);
+    padding-top: 66px;
+    padding-bottom: 142px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.offer {
+    width: 600px;
+}
+
+.title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 36px;
+}
+
+.title span {
+    font-size: 59px;
+}
+
+.intro {
+    margin-bottom: 45px;
+    width: 410px;
+    font-size: 16px;
+    font-family: 'Open Sans Regular', sans-serif;
+}
+
+.btn {
+    background: #ffd429;
+    color: #2e2a1b;
+    font-family: 'Montserrat', sans-serif;
+    width: 220px;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+.learn {
+    padding-bottom: 82px;
+    align-items: center;
+}
+
+.section-title {
+    padding-top: 104px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+    text-align: center;
+}
+
+.skill-title {
+    font-size: 19px;
+    margin-top: 90px;
+}
+
+.skill {
+    width: 285px;
+    font-family: 'Ubuntu', sans-serif;
+    background: url(../img/icon3.png) no-repeat top center;
+    padding-top: 15px;
+}
+
+.skill-travel {
+    background: url(../img/icon1.png) no-repeat top center;
+}
+
+.skill-creation {
+    background: url(../img/icon2.png) no-repeat top center;
+}
+.mail {
+background:#ecf3f8 ;
+padding-top: 105px;
+padding-bottom: 102px;
+}
+
+.input{
+     width: 343px;
+     height: 48px;
+     display: block;
+     margin-bottom: 15px;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 5px;
+    
+}
+.form {
+    text-align: center;
+     
+}
+
+.btn{
+    width: 345px;
+}
+.footer{
+    background: #164d7a;
+    padding: 70px 0;
+}
+.credits {
+    text-align: center;
+}
+
+
+
